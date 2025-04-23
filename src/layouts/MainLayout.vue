@@ -1,7 +1,6 @@
 <template>
   <div>
     <background />
-    <Uilogo/>
     <Uilogo />
     <UiButton :label="'Entrar'" />
     <UiButton
