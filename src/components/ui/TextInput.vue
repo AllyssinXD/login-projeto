@@ -1,8 +1,8 @@
 <template>
-  <div class="text-input-container">
+  <div class="text-input-container" style="padding: 20px">
     <label
       :for="props.name"
-      style="font-size: 20px; color: #ffffff; margin-bottom: 10px; display: block"
+      style="font-size: 28px; color: #ffffff; margin-bottom: 10px; display: block"
       >{{ props.name }}</label
     >
     <input
@@ -11,11 +11,12 @@
       :placeholder="props.placeholder"
       class="text-input"
       style="
-        width: 250px;
+        width: 90%;
         height: 50px;
         font-size: 16px;
         padding: 10px;
         border: none;
+        border-radius: 24px;
         cursor: pointer;
       "
       @focus="(e) => (e.target.style.borderColor = '#0056b3')"
